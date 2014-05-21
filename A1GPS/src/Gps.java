@@ -3,12 +3,7 @@ import java.util.Random;
 public class Gps {
 
 	public enum Direction {
-		NORTH(0), EAST(1), WEST(2), SOUTH(3);
-		private final int index;
-
-		Direction(int index) {
-			this.index = index;
-		}
+		NORTH, EAST, WEST, SOUTH;
 	}
 
 	public static void main(String[] args) {
