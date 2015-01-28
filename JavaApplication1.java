@@ -19,8 +19,7 @@ public class JavaApplication1 {
         double randNum =0;
         String direction ="";
         for(int i=0; i<12; i++) {
-            randNum = Math.random();
-            
+            randNum = Math.random();            
             System.out.println(randNum);
             if(randNum<0.25) {
                 direction = "NORTH";
